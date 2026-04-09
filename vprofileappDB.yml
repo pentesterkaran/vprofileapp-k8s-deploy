@@ -42,7 +42,7 @@ spec:
             fsType: ext4
       
       initContainers:
-        - name: Busy
+        - name: busy
           image: busybox:latest
           volumeMounts:
             - name: vprodb-data
